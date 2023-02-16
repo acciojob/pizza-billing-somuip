@@ -85,9 +85,8 @@ public class Pizza {
 
             isBillCreated = true; // to avoid making multiple bills
 
-            return this.bill;
+//            return this.bill+"\n";
         }
-
-        return "";
+        return this.bill+"\n";
     }
 }
